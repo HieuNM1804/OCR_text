@@ -2,7 +2,7 @@
 
 This repository implements an Optical Character Recognition (OCR) system using a CRNN architecture. It is designed to recognize text in images using a deep learning approach.
 
-## 🚀 Features
+##  Features
 
 *   **Backbone**: EfficientNet-B5 (pretrained on ImageNet) for powerful feature extraction.
 *   **Sequence Modeling**: Bidirectional LSTM to capture sequence context.
@@ -38,7 +38,7 @@ This repository implements an Optical Character Recognition (OCR) system using a
     pip install -r requirements.txt
     ```
 
-## 📊 Dataset Preparation
+##  Dataset Preparation
 
 The project expects the dataset to be organized as follows:
 
@@ -64,7 +64,7 @@ CONFIG = {
 }
 ```
 
-## 🏃 Usage
+##  Usage
 
 ### Training
 To start training the model:
@@ -87,7 +87,7 @@ python predict.py
 ```
 Results will be saved to a JSON file.
 
-## 📝 Requirements
+##  Requirements
 
 *   Python 3.8+
 *   PyTorch
