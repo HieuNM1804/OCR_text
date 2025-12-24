@@ -20,6 +20,7 @@ The model combines a CNN backbone with a recurrent sequence model and CTC loss f
 - `infer_random.py`: Run inference on random test images and visualize results  
 - `predict.py`: Run inference on a folder of images and save results to JSON  
 
+![Inference Results](random_inference_results.png)
 ## Installation
 
 1. Clone the repository.
@@ -27,3 +28,4 @@ The model combines a CNN backbone with a recurrent sequence model and CTC loss f
 
 ```bash
 pip install -r requirements.txt
+
