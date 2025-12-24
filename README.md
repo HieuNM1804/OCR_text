@@ -9,7 +9,7 @@ This repository implements an Optical Character Recognition (OCR) system using a
 *   **Decoding**: CTC (Connectionist Temporal Classification) with Beam Search for accurate text decoding.
 *   **Data Augmentation**: Includes rotation, color jitter, blur, etc., for robust training.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 .
@@ -24,7 +24,7 @@ This repository implements an Optical Character Recognition (OCR) system using a
 └── README.md           # Project documentation
 ```
 
-## 🛠️ Installation
+##  Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -79,6 +79,7 @@ To run inference on random images from the test set and see the results:
 python infer_random.py
 ```
 This generates `random_inference_results.png`.
+![Inference Results](random_inference_results.png)
 
 ### Batch Prediction
 To predict text for a whole folder of images:
@@ -96,3 +97,4 @@ Results will be saved to a JSON file.
 *   Matplotlib
 *   tqdm
 *   editdistance
+
