@@ -69,4 +69,4 @@ def infer_random_images(num_images=10):
 
     
 if __name__ == "__main__":
-    infer_random_images(7)
+    infer_random_images(15)
